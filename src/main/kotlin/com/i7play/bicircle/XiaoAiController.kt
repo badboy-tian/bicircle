@@ -18,7 +18,10 @@ class XiaoAiController {
 
         val response = Response(true, ToDisplay("即将播放消息", 0), ToSpeak("即将播放消息", 0))
         val aiResp = AIResp(true, response, "1.0", null)
+
         println(aiResp)
+        println(aiResp)
+
         return aiResp
     }
-} 
+}
